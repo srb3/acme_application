@@ -7,7 +7,7 @@ Ohai.plugin(:AcmePackages) do
 
   collect_data(:default) do
     acme_packages Mash.new
-    %w{ development staging prod }.each do |env|
+    %w{ DEV TST GTU TGT UAT PTP PRD }.each do |env|
       acme_packages[env] = get_packages(env)
     end
   end

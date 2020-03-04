@@ -1,7 +1,7 @@
 property :name,                String, default: 'hello_world'
 property :artifact_url,        String, default: 'http://www.java2s.com/Code/JarDownload/helloworld-spring/helloworld-spring-1.4.jar.zip'
-property :env,                 String, default: 'development'
-property :defl_code,           String, default: '1234'
+property :env,                 String, default: 'PRD'
+property :defl_code,           String, default: 'SYLX'
 property :jre_package,         String, default: lazy { node['acme_application']['jre_package'] }
 property :artifact_extenstion, String, default: 'zip'
 property :binary_extenstion,   String, default: 'jar'
