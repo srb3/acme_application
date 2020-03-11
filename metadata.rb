@@ -4,7 +4,7 @@ maintainer_email 'sbrown@chef.io'
 license 'Apache-2.0'
 description 'Installs/Configures acme_application'
 long_description 'Installs/Configures acme_application'
-version '0.1.0'
+version '0.0.3'
 chef_version '>= 14.0'
 depends 'ohai'
 
